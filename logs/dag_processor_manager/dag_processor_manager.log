@@ -931,3 +931,42 @@ File Path                                       PID    Runtime      # DAGs    # 
 /opt/airflow/dags/potencia_etl_dag.py                                    1           0  0.44s           2025-07-06T20:49:57                      10
 /opt/airflow/dags/ener_suministrada_etl_dag.py                           1           0  0.38s           2025-07-06T20:49:47                      10
 ================================================================================
+[2025-07-06T20:50:33.422+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/ener_suministrada_etl_dag.py                           1           0  0.49s           2025-07-06T20:50:17                      10
+/opt/airflow/dags/ener_fact_dpt_etl_dag.py                               1           0  0.44s           2025-07-06T20:50:21                      10
+/opt/airflow/dags/clientes_dpt_etl_dag.py                                1           0  0.44s           2025-07-06T20:50:21                      10
+/opt/airflow/dags/clientes_sisdat_etl_dag.py                             1           0  0.42s           2025-07-06T20:50:19                      10
+/opt/airflow/dags/ener_fact_sisdat_etl_dag.py                            1           0  0.42s           2025-07-06T20:50:19                      10
+/opt/airflow/dags/potencia_etl_dag.py                                    1           0  0.40s           2025-07-06T20:50:27                      10
+================================================================================
+[2025-07-06T20:51:03.457+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/ener_fact_sisdat_etl_dag.py                            1           0  0.60s           2025-07-06T20:50:50                      10
+/opt/airflow/dags/ener_fact_dpt_etl_dag.py                               1           0  0.55s           2025-07-06T20:50:51                      10
+/opt/airflow/dags/clientes_dpt_etl_dag.py                                1           0  0.52s           2025-07-06T20:50:51                      10
+/opt/airflow/dags/clientes_sisdat_etl_dag.py                             1           0  0.44s           2025-07-06T20:50:50                      10
+/opt/airflow/dags/potencia_etl_dag.py                                    1           0  0.42s           2025-07-06T20:50:58                      10
+/opt/airflow/dags/ener_suministrada_etl_dag.py                           1           0  0.37s           2025-07-06T20:50:48                      10
+================================================================================
+[2025-07-06T20:51:33.559+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/ener_fact_dpt_etl_dag.py                               1           0  0.44s           2025-07-06T20:51:22                      10
+/opt/airflow/dags/ener_suministrada_etl_dag.py                           1           0  0.44s           2025-07-06T20:51:18                      10
+/opt/airflow/dags/clientes_dpt_etl_dag.py                                1           0  0.43s           2025-07-06T20:51:22                      10
+/opt/airflow/dags/ener_fact_sisdat_etl_dag.py                            1           0  0.43s           2025-07-06T20:51:21                      10
+/opt/airflow/dags/potencia_etl_dag.py                                    1           0  0.42s           2025-07-06T20:51:28                      10
+/opt/airflow/dags/clientes_sisdat_etl_dag.py                             1           0  0.41s           2025-07-06T20:51:21                      10
+================================================================================
