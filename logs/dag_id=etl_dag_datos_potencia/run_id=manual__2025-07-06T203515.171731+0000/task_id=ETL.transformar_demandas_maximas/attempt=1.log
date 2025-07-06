@@ -1,0 +1,75 @@
+[2025-07-06T20:35:19.655+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-06T20:35:19.674+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_dag_datos_potencia.ETL.transformar_demandas_maximas manual__2025-07-06T20:35:15.171731+00:00 [queued]>
+[2025-07-06T20:35:19.682+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_dag_datos_potencia.ETL.transformar_demandas_maximas manual__2025-07-06T20:35:15.171731+00:00 [queued]>
+[2025-07-06T20:35:19.682+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-07-06T20:35:19.694+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): ETL.transformar_demandas_maximas> on 2025-07-06 20:35:15.171731+00:00
+[2025-07-06T20:35:19.705+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=268) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-07-06T20:35:19.707+0000] {standard_task_runner.py:72} INFO - Started process 271 to run task
+[2025-07-06T20:35:19.707+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_dag_datos_potencia', 'ETL.transformar_demandas_maximas', 'manual__2025-07-06T20:35:15.171731+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/potencia_etl_dag.py', '--cfg-path', '/tmp/tmpaoddgivo']
+[2025-07-06T20:35:19.709+0000] {standard_task_runner.py:105} INFO - Job 13: Subtask ETL.transformar_demandas_maximas
+[2025-07-06T20:35:19.771+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_dag_datos_potencia.ETL.transformar_demandas_maximas manual__2025-07-06T20:35:15.171731+00:00 [running]> on host b7670b46f5dc
+[2025-07-06T20:35:19.847+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_dag_datos_potencia' AIRFLOW_CTX_TASK_ID='ETL.transformar_demandas_maximas' AIRFLOW_CTX_EXECUTION_DATE='2025-07-06T20:35:15.171731+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-06T20:35:15.171731+00:00'
+[2025-07-06T20:35:19.848+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-07-06T20:35:19.961+0000] {python.py:240} INFO - Done. Returned value was:         Fecha  Potencia (MW)
+0  1970-01-01      57.200000
+1  1971-01-01      66.100000
+2  1972-01-01      68.800000
+3  1973-01-01      76.600000
+4  1974-01-01      85.100000
+5  1975-01-01      99.100000
+6  1976-01-01     110.400000
+7  1977-01-01     126.700000
+8  1978-01-01     134.400000
+9  1979-01-01     148.200000
+10 1980-01-01     163.800000
+11 1981-01-01     171.200000
+12 1982-01-01     183.600000
+13 1983-01-01     194.100000
+14 1984-01-01     203.600000
+15 1985-01-01     219.500000
+16 1986-01-01     235.700000
+17 1987-01-01     244.500000
+18 1988-01-01     257.400000
+19 1989-01-01     270.650000
+20 1990-01-01     289.100000
+21 1991-01-01     310.800000
+22 1992-01-01     314.000000
+23 1993-01-01     319.200000
+24 1994-01-01     353.400000
+25 1995-01-01     392.600000
+26 1996-01-01     408.900000
+27 1997-01-01     439.650000
+28 1998-01-01     446.220000
+29 1999-01-01     442.910000
+30 2000-01-01     450.100000
+31 2001-01-01     460.670000
+32 2002-01-01     505.340000
+33 2003-01-01     512.860000
+34 2004-01-01     538.460000
+35 2005-01-01     551.275000
+36 2006-01-01     561.538000
+37 2007-01-01     589.710000
+38 2008-01-01     615.260000
+39 2009-01-01     628.790000
+40 2010-01-01     647.040000
+41 2011-01-01     663.450000
+42 2012-01-01     685.490000
+43 2013-01-01     713.064318
+44 2014-01-01     721.480000
+45 2015-01-01     740.000000
+46 2016-01-01     725.140000
+47 2017-01-01     750.780000
+48 2018-01-01     754.876000
+49 2019-01-01     715.370904
+50 2020-01-01     706.280000
+51 2021-01-01     705.908788
+52 2022-01-01     707.928376
+53 2023-01-01     730.750000
+54 2024-01-01     737.420000
+[2025-07-06T20:35:20.008+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-07-06T20:35:20.008+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=etl_dag_datos_potencia, task_id=ETL.transformar_demandas_maximas, run_id=manual__2025-07-06T20:35:15.171731+00:00, execution_date=20250706T203515, start_date=20250706T203519, end_date=20250706T203520
+[2025-07-06T20:35:20.082+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-06T20:35:20.110+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-07-06T20:35:20.112+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

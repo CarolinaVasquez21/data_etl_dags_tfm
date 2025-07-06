@@ -1,0 +1,651 @@
+[2025-07-06T20:14:57.178+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:14:57.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:14:57.183+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:14:57.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:14:58.749+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:14:58.743+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:14:58.751+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:14:58.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 1.629 seconds
+[2025-07-06T20:15:28.970+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:15:28.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:15:28.973+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:15:28.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:15:29.427+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:15:29.422+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:15:29.429+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:15:29.448+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.484 seconds
+[2025-07-06T20:15:59.742+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:15:59.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:15:59.746+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:15:59.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:16:00.260+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:16:00.255+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:16:00.262+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:16:00.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.550 seconds
+[2025-07-06T20:16:30.464+0000] {processor.py:186} INFO - Started process (PID=125) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:16:30.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:16:30.468+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:16:30.467+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:16:30.916+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:16:30.911+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:16:30.918+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:16:30.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.476 seconds
+[2025-07-06T20:17:01.304+0000] {processor.py:186} INFO - Started process (PID=143) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:17:01.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:17:01.307+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:17:01.307+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:17:01.845+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:17:01.840+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:17:01.847+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:17:01.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.566 seconds
+[2025-07-06T20:17:32.135+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:17:32.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:17:32.138+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:17:32.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:17:32.620+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:17:32.614+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:17:32.622+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:17:32.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.515 seconds
+[2025-07-06T20:18:02.944+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:18:02.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:18:02.947+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:18:02.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:18:03.402+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:18:03.397+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:18:03.404+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:18:03.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.485 seconds
+[2025-07-06T20:18:33.672+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:18:33.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:18:33.675+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:18:33.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:18:34.137+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:18:34.132+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:18:34.138+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:18:34.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.492 seconds
+[2025-07-06T20:19:04.470+0000] {processor.py:186} INFO - Started process (PID=215) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:19:04.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:19:04.473+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:19:04.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:19:04.958+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:19:04.952+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:19:04.959+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:19:04.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.511 seconds
+[2025-07-06T20:19:35.346+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:19:35.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:19:35.350+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:19:35.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:19:36.093+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:19:36.085+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:19:36.096+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:19:36.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.785 seconds
+[2025-07-06T20:20:06.407+0000] {processor.py:186} INFO - Started process (PID=251) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:20:06.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:20:06.410+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:20:06.410+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:20:06.874+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:20:06.869+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:20:06.876+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:20:06.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.495 seconds
+[2025-07-06T20:20:37.249+0000] {processor.py:186} INFO - Started process (PID=269) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:20:37.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:20:37.253+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:20:37.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:20:37.716+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:20:37.710+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:20:37.717+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:20:37.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.491 seconds
+[2025-07-06T20:21:08.143+0000] {processor.py:186} INFO - Started process (PID=287) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:21:08.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:21:08.146+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:21:08.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:21:08.661+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:21:08.650+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:21:08.665+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:21:08.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.559 seconds
+[2025-07-06T20:21:39.099+0000] {processor.py:186} INFO - Started process (PID=305) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:21:39.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:21:39.103+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:21:39.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:21:39.650+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:21:39.645+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:21:39.652+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:21:39.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.576 seconds
+[2025-07-06T20:22:09.958+0000] {processor.py:186} INFO - Started process (PID=323) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:22:09.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:22:09.961+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:22:09.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:22:10.450+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:22:10.445+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:22:10.451+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:22:10.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.523 seconds
+[2025-07-06T20:22:40.811+0000] {processor.py:186} INFO - Started process (PID=342) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:22:40.811+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:22:40.814+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:22:40.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:22:41.082+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:22:41.077+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:22:41.084+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:22:41.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.299 seconds
+[2025-07-06T20:23:11.750+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:23:11.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:23:11.754+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:11.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:23:12.018+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:12.013+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/clientes_dpt_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/clientes_dpt_etl_dag.py", line 12, in <module>
+    from utilities import construir_columna_fecha, obtener_cliente_db, desagregar_demanda_mensual
+  File "/opt/airflow/utils/utilities.py", line 3, in <module>
+    from pymongo.mongo_client import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2025-07-06T20:23:12.019+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:23:12.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.299 seconds
+[2025-07-06T20:23:42.650+0000] {processor.py:186} INFO - Started process (PID=404) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:23:42.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:23:42.653+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:42.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:23:43.034+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:23:43.142+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:43.141+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:etl_dag_datos_num_clientes_dpt
+[2025-07-06T20:23:43.155+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:43.154+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:etl_dag_datos_num_clientes_dpt
+[2025-07-06T20:23:43.165+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:43.164+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:etl_dag_datos_num_clientes_dpt
+[2025-07-06T20:23:43.176+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:43.176+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:etl_dag_datos_num_clientes_dpt
+[2025-07-06T20:23:43.186+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:43.186+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:etl_dag_datos_num_clientes_dpt
+[2025-07-06T20:23:43.198+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:43.198+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:etl_dag_datos_num_clientes_dpt
+[2025-07-06T20:23:43.209+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:43.209+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:etl_dag_datos_num_clientes_dpt
+[2025-07-06T20:23:43.210+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:43.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:23:43.222+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:43.221+0000] {dag.py:3262} INFO - Creating ORM DAG for etl_dag_datos_num_clientes_dpt
+[2025-07-06T20:23:43.223+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:23:43.222+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:23:43.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.603 seconds
+[2025-07-06T20:24:13.415+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:24:13.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:24:13.419+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:24:13.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:24:14.343+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:24:14.369+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:24:14.368+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:24:14.381+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:24:14.381+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:24:14.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.994 seconds
+[2025-07-06T20:24:45.065+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:24:45.066+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:24:45.068+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:24:45.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:24:45.581+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:24:45.603+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:24:45.602+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:24:45.613+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:24:45.613+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:24:45.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.567 seconds
+[2025-07-06T20:25:15.782+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:25:15.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:25:15.785+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:25:15.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:25:16.273+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:25:16.294+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:25:16.294+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:25:16.304+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:25:16.304+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:25:16.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.544 seconds
+[2025-07-06T20:25:46.789+0000] {processor.py:186} INFO - Started process (PID=126) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:25:46.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:25:46.793+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:25:46.792+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:25:47.257+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:25:47.278+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:25:47.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:25:47.289+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:25:47.289+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:25:47.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.518 seconds
+[2025-07-06T20:26:17.461+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:26:17.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:26:17.464+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:26:17.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:26:17.923+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:26:17.943+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:26:17.943+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:26:17.955+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:26:17.955+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:26:17.968+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.512 seconds
+[2025-07-06T20:26:48.500+0000] {processor.py:186} INFO - Started process (PID=162) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:26:48.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:26:48.503+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:26:48.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:26:48.967+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:26:48.986+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:26:48.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:26:48.997+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:26:48.996+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:26:49.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.515 seconds
+[2025-07-06T20:27:19.803+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:27:19.803+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:27:19.806+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:27:19.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:27:20.234+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:27:20.253+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:27:20.253+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:27:20.263+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:27:20.262+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:27:20.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.479 seconds
+[2025-07-06T20:27:50.843+0000] {processor.py:186} INFO - Started process (PID=198) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:27:50.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:27:50.846+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:27:50.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:27:51.299+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:27:51.320+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:27:51.320+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:27:51.330+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:27:51.330+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:27:51.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.506 seconds
+[2025-07-06T20:28:21.717+0000] {processor.py:186} INFO - Started process (PID=216) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:28:21.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:28:21.720+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:28:21.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:28:22.185+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:28:22.207+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:28:22.207+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:28:22.218+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:28:22.217+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:28:22.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.522 seconds
+[2025-07-06T20:28:52.540+0000] {processor.py:186} INFO - Started process (PID=234) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:28:52.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:28:52.543+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:28:52.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:28:52.955+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:28:52.973+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:28:52.972+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:28:52.982+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:28:52.982+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:28:52.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.461 seconds
+[2025-07-06T20:29:23.466+0000] {processor.py:186} INFO - Started process (PID=252) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:29:23.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:29:23.469+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:29:23.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:29:23.913+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:29:23.933+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:29:23.932+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:29:23.943+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:29:23.943+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:29:23.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.498 seconds
+[2025-07-06T20:29:54.643+0000] {processor.py:186} INFO - Started process (PID=272) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:29:54.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:29:54.646+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:29:54.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:29:55.112+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:29:55.131+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:29:55.131+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:29:55.142+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:29:55.141+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:29:55.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.516 seconds
+[2025-07-06T20:30:25.558+0000] {processor.py:186} INFO - Started process (PID=290) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:30:25.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:30:25.563+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:30:25.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:30:26.047+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:30:26.065+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:30:26.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:30:26.075+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:30:26.075+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:30:26.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.538 seconds
+[2025-07-06T20:30:56.785+0000] {processor.py:186} INFO - Started process (PID=308) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:30:56.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:30:56.789+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:30:56.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:30:57.271+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:30:57.299+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:30:57.298+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:30:57.311+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:30:57.311+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:30:57.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.549 seconds
+[2025-07-06T20:31:27.750+0000] {processor.py:186} INFO - Started process (PID=327) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:31:27.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:31:27.753+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:31:27.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:31:28.220+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:31:28.238+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:31:28.238+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:31:28.247+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:31:28.247+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:31:28.262+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.518 seconds
+[2025-07-06T20:31:58.365+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:31:58.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:31:58.368+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:31:58.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:31:58.905+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:31:58.929+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:31:58.928+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:31:58.942+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:31:58.941+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:31:58.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.602 seconds
+[2025-07-06T20:32:29.394+0000] {processor.py:186} INFO - Started process (PID=391) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:32:29.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:32:29.397+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:32:29.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:32:29.876+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:32:29.898+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:32:29.898+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:32:29.910+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:32:29.910+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:32:29.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.538 seconds
+[2025-07-06T20:33:00.676+0000] {processor.py:186} INFO - Started process (PID=409) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:33:00.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:33:00.680+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:33:00.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:33:01.122+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:33:01.142+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:33:01.141+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:33:01.151+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:33:01.151+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:33:01.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.496 seconds
+[2025-07-06T20:33:31.635+0000] {processor.py:186} INFO - Started process (PID=427) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:33:31.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:33:31.639+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:33:31.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:33:32.082+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:33:32.101+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:33:32.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:33:32.111+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:33:32.111+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:33:32.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.496 seconds
+[2025-07-06T20:34:02.599+0000] {processor.py:186} INFO - Started process (PID=449) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:34:02.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:34:02.602+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:34:02.602+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:34:03.059+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:34:03.079+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:34:03.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:34:03.089+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:34:03.089+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:34:03.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.514 seconds
+[2025-07-06T20:34:33.395+0000] {processor.py:186} INFO - Started process (PID=466) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:34:33.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:34:33.397+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:34:33.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:34:33.710+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:34:33.729+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:34:33.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:34:33.739+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:34:33.739+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:34:33.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.526 seconds
+[2025-07-06T20:35:04.523+0000] {processor.py:186} INFO - Started process (PID=485) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:35:04.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:35:04.526+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:35:04.526+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:35:04.863+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:35:04.897+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:35:04.896+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:35:04.913+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:35:04.913+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:35:04.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.419 seconds
+[2025-07-06T20:35:35.160+0000] {processor.py:186} INFO - Started process (PID=511) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:35:35.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:35:35.163+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:35:35.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:35:35.486+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:35:35.511+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:35:35.510+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:35:35.525+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:35:35.525+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:35:35.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.396 seconds
+[2025-07-06T20:36:06.210+0000] {processor.py:186} INFO - Started process (PID=529) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:36:06.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:36:06.213+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:36:06.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:36:06.515+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:36:06.538+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:36:06.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:36:06.549+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:36:06.548+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:36:06.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.361 seconds
+[2025-07-06T20:36:36.699+0000] {processor.py:186} INFO - Started process (PID=547) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:36:36.700+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:36:36.702+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:36:36.702+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:36:37.006+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:36:37.029+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:36:37.028+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:36:37.042+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:36:37.041+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:36:37.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.365 seconds
+[2025-07-06T20:37:07.212+0000] {processor.py:186} INFO - Started process (PID=565) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:37:07.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:37:07.215+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:37:07.214+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:37:07.515+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:37:07.538+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:37:07.538+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:37:07.550+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:37:07.549+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:37:07.564+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.360 seconds
+[2025-07-06T20:37:37.694+0000] {processor.py:186} INFO - Started process (PID=583) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:37:37.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:37:37.697+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:37:37.696+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:37:37.998+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:37:38.021+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:37:38.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:37:38.033+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:37:38.033+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:37:38.047+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.362 seconds
+[2025-07-06T20:38:08.168+0000] {processor.py:186} INFO - Started process (PID=601) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:38:08.169+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:38:08.172+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:38:08.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:38:08.521+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:38:08.545+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:38:08.545+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:38:08.557+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:38:08.557+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:38:08.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.415 seconds
+[2025-07-06T20:38:38.680+0000] {processor.py:186} INFO - Started process (PID=619) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:38:38.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:38:38.683+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:38:38.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:38:38.998+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:38:39.023+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:38:39.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:38:39.034+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:38:39.034+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:38:39.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.378 seconds
+[2025-07-06T20:39:09.259+0000] {processor.py:186} INFO - Started process (PID=637) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:39:09.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:39:09.262+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:39:09.262+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:39:09.570+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:39:09.593+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:39:09.593+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:39:09.604+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:39:09.604+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:39:09.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.369 seconds
+[2025-07-06T20:39:39.932+0000] {processor.py:186} INFO - Started process (PID=663) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:39:39.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:39:39.936+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:39:39.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:39:40.263+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:39:40.287+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:39:40.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:39:40.298+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:39:40.298+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:39:40.313+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.390 seconds
+[2025-07-06T20:40:10.498+0000] {processor.py:186} INFO - Started process (PID=681) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:40:10.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:40:10.502+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:40:10.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:40:10.841+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:40:10.869+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:40:10.868+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:40:10.885+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:40:10.884+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:40:10.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.415 seconds
+[2025-07-06T20:40:41.119+0000] {processor.py:186} INFO - Started process (PID=699) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:40:41.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:40:41.122+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:40:41.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:40:41.470+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:40:41.495+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:40:41.495+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:40:41.509+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:40:41.509+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:40:41.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.415 seconds
+[2025-07-06T20:41:11.633+0000] {processor.py:186} INFO - Started process (PID=717) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:41:11.634+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:41:11.636+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:41:11.636+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:41:11.958+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:41:11.984+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:41:11.983+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:41:11.999+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:41:11.999+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:41:12.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.391 seconds
+[2025-07-06T20:41:42.132+0000] {processor.py:186} INFO - Started process (PID=735) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:41:42.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:41:42.136+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:41:42.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:41:42.441+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:41:42.463+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:41:42.463+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:41:42.474+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:41:42.474+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:41:42.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.367 seconds
+[2025-07-06T20:42:12.660+0000] {processor.py:186} INFO - Started process (PID=753) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:42:12.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:42:12.664+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:42:12.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:42:12.977+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:42:13.003+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:42:13.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:42:13.015+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:42:13.015+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:42:13.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.377 seconds
+[2025-07-06T20:42:43.140+0000] {processor.py:186} INFO - Started process (PID=771) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:42:43.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:42:43.143+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:42:43.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:42:43.465+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:42:43.487+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:42:43.486+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:42:43.498+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:42:43.498+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:42:43.513+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.382 seconds
+[2025-07-06T20:43:13.661+0000] {processor.py:186} INFO - Started process (PID=789) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:43:13.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:43:13.664+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:43:13.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:43:14.040+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:43:14.063+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:43:14.062+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:43:14.074+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:43:14.074+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:43:14.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.438 seconds
+[2025-07-06T20:43:44.221+0000] {processor.py:186} INFO - Started process (PID=807) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:43:44.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:43:44.225+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:43:44.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:43:44.542+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:43:44.566+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:43:44.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:43:44.580+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:43:44.579+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:43:44.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.383 seconds
+[2025-07-06T20:44:14.721+0000] {processor.py:186} INFO - Started process (PID=825) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:44:14.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:44:14.725+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:44:14.725+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:44:15.033+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:44:15.060+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:44:15.059+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:44:15.073+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:44:15.073+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:44:15.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.377 seconds
+[2025-07-06T20:44:45.263+0000] {processor.py:186} INFO - Started process (PID=843) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:44:45.264+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:44:45.266+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:44:45.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:44:45.593+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:44:45.625+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:44:45.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:44:45.640+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:44:45.640+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:44:45.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.403 seconds
+[2025-07-06T20:45:15.807+0000] {processor.py:186} INFO - Started process (PID=869) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:45:15.808+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:45:15.810+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:45:15.810+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:45:16.124+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:45:16.148+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:45:16.148+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:45:16.160+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:45:16.160+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:45:16.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.380 seconds
+[2025-07-06T20:45:46.321+0000] {processor.py:186} INFO - Started process (PID=887) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:45:46.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:45:46.324+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:45:46.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:45:46.622+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:45:46.645+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:45:46.645+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:45:46.656+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:45:46.656+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:45:46.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.357 seconds
+[2025-07-06T20:46:16.841+0000] {processor.py:186} INFO - Started process (PID=905) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:46:16.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:46:16.844+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:46:16.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:46:17.149+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:46:17.173+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:46:17.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:46:17.185+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:46:17.185+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:46:17.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.369 seconds
+[2025-07-06T20:46:47.352+0000] {processor.py:186} INFO - Started process (PID=922) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:46:47.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:46:47.356+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:46:47.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:46:47.716+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:46:47.746+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:46:47.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:46:47.762+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:46:47.761+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:46:47.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.438 seconds
+[2025-07-06T20:47:17.883+0000] {processor.py:186} INFO - Started process (PID=940) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:47:17.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:47:17.886+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:47:17.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:47:18.184+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:47:18.206+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:47:18.205+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:47:18.218+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:47:18.218+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:47:18.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.357 seconds
+[2025-07-06T20:47:48.406+0000] {processor.py:186} INFO - Started process (PID=958) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:47:48.406+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:47:48.408+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:47:48.408+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:47:48.714+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:47:48.736+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:47:48.735+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:47:48.749+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:47:48.749+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:47:48.764+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.366 seconds
+[2025-07-06T20:48:18.881+0000] {processor.py:186} INFO - Started process (PID=976) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:48:18.882+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:48:18.884+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:48:18.883+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:48:19.214+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:48:19.240+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:48:19.239+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:48:19.253+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:48:19.252+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:48:19.267+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.394 seconds
+[2025-07-06T20:48:49.388+0000] {processor.py:186} INFO - Started process (PID=1000) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:48:49.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:48:49.391+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:48:49.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:48:49.704+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:48:49.730+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:48:49.730+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:48:49.743+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:48:49.743+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:48:49.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.379 seconds
+[2025-07-06T20:49:19.850+0000] {processor.py:186} INFO - Started process (PID=1018) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:49:19.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:49:19.853+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:49:19.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:49:20.182+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:49:20.207+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:49:20.207+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:49:20.220+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:49:20.220+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:49:20.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.393 seconds
+[2025-07-06T20:49:50.348+0000] {processor.py:186} INFO - Started process (PID=1036) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:49:50.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:49:50.352+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:49:50.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:49:50.692+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:49:50.716+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:49:50.716+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:49:50.730+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:49:50.729+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:49:50.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.406 seconds
+[2025-07-06T20:50:20.893+0000] {processor.py:186} INFO - Started process (PID=1054) to work on /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:50:20.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_dpt_etl_dag.py for tasks to queue
+[2025-07-06T20:50:20.896+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:20.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:50:21.243+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_dpt' retrieved from /opt/airflow/dags/clientes_dpt_etl_dag.py
+[2025-07-06T20:50:21.270+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:21.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:50:21.284+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:21.284+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_dpt to None, run_after=None
+[2025-07-06T20:50:21.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_dpt_etl_dag.py took 0.414 seconds

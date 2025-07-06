@@ -1,0 +1,35 @@
+[2025-07-06T20:35:19.666+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-06T20:35:19.686+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_dag_datos_potencia.ETL.transformar_demandas_mensuales manual__2025-07-06T20:35:15.171731+00:00 [queued]>
+[2025-07-06T20:35:19.696+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_dag_datos_potencia.ETL.transformar_demandas_mensuales manual__2025-07-06T20:35:15.171731+00:00 [queued]>
+[2025-07-06T20:35:19.696+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-07-06T20:35:19.709+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): ETL.transformar_demandas_mensuales> on 2025-07-06 20:35:15.171731+00:00
+[2025-07-06T20:35:19.718+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=267) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-07-06T20:35:19.721+0000] {standard_task_runner.py:72} INFO - Started process 273 to run task
+[2025-07-06T20:35:19.721+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_dag_datos_potencia', 'ETL.transformar_demandas_mensuales', 'manual__2025-07-06T20:35:15.171731+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/potencia_etl_dag.py', '--cfg-path', '/tmp/tmpcq5b9ag4']
+[2025-07-06T20:35:19.724+0000] {standard_task_runner.py:105} INFO - Job 14: Subtask ETL.transformar_demandas_mensuales
+[2025-07-06T20:35:19.782+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_dag_datos_potencia.ETL.transformar_demandas_mensuales manual__2025-07-06T20:35:15.171731+00:00 [running]> on host b7670b46f5dc
+[2025-07-06T20:35:19.857+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_dag_datos_potencia' AIRFLOW_CTX_TASK_ID='ETL.transformar_demandas_mensuales' AIRFLOW_CTX_EXECUTION_DATE='2025-07-06T20:35:15.171731+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-06T20:35:15.171731+00:00'
+[2025-07-06T20:35:19.858+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-07-06T20:35:19.960+0000] {warnings.py:112} WARNING - /opt/***/utils/utilities.py:126: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df["Fecha"] = pd.to_datetime(df["Fecha"], yearfirst=True)
+
+[2025-07-06T20:35:19.972+0000] {python.py:240} INFO - Done. Returned value was:          Fecha  Potencia (MW)
+0   1970-01-01          53.10
+1   1970-02-01          55.10
+2   1970-03-01          53.55
+3   1970-04-01          53.70
+4   1970-05-01          55.90
+..         ...            ...
+655 2024-08-01         709.40
+656 2024-09-01         725.96
+657 2024-10-01         727.08
+658 2024-11-01         727.08
+659 2024-12-01         727.08
+
+[660 rows x 2 columns]
+[2025-07-06T20:35:20.034+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-07-06T20:35:20.035+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=etl_dag_datos_potencia, task_id=ETL.transformar_demandas_mensuales, run_id=manual__2025-07-06T20:35:15.171731+00:00, execution_date=20250706T203515, start_date=20250706T203519, end_date=20250706T203520
+[2025-07-06T20:35:20.097+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-06T20:35:20.107+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

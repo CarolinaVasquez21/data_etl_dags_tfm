@@ -74,7 +74,7 @@ def ajustar_atipicos_por_anio(df, columna_valor, anios, columna_fecha="Fecha"):
         # Calcular IQR
         q1, q3 = np.percentile(df_anio[columna_valor].dropna(), [25, 75])
         iqr = q3 - q1
-        lim_inf = q1 - 1.5 * iqr
+        lim_inf = q1 - 1.45 * iqr
         lim_sup = q3 + 1.5 * iqr
 
         # Reemplazar atípicos con nan para después interpolar

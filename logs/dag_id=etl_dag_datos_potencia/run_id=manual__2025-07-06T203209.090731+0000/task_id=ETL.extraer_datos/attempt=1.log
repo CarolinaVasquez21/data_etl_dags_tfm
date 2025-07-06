@@ -1,0 +1,38 @@
+[2025-07-06T20:32:11.297+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-06T20:32:11.316+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_dag_datos_potencia.ETL.extraer_datos manual__2025-07-06T20:32:09.090731+00:00 [queued]>
+[2025-07-06T20:32:11.324+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_dag_datos_potencia.ETL.extraer_datos manual__2025-07-06T20:32:09.090731+00:00 [queued]>
+[2025-07-06T20:32:11.324+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-07-06T20:32:11.335+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): ETL.extraer_datos> on 2025-07-06 20:32:09.090731+00:00
+[2025-07-06T20:32:11.343+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=197) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-07-06T20:32:11.345+0000] {standard_task_runner.py:72} INFO - Started process 199 to run task
+[2025-07-06T20:32:11.345+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_dag_datos_potencia', 'ETL.extraer_datos', 'manual__2025-07-06T20:32:09.090731+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/potencia_etl_dag.py', '--cfg-path', '/tmp/tmplbdlcuit']
+[2025-07-06T20:32:11.348+0000] {standard_task_runner.py:105} INFO - Job 6: Subtask ETL.extraer_datos
+[2025-07-06T20:32:11.406+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_dag_datos_potencia.ETL.extraer_datos manual__2025-07-06T20:32:09.090731+00:00 [running]> on host b7670b46f5dc
+[2025-07-06T20:32:11.477+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_dag_datos_potencia' AIRFLOW_CTX_TASK_ID='ETL.extraer_datos' AIRFLOW_CTX_EXECUTION_DATE='2025-07-06T20:32:09.090731+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-06T20:32:09.090731+00:00'
+[2025-07-06T20:32:11.478+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-07-06T20:32:11.782+0000] {python.py:240} INFO - Done. Returned value was:       Meses   1970  1971  1972  ...        2021        2022    2023    2024
+0       Ene  53.10  57.4  63.2  ...  678.548840  690.004136  705.46  724.59
+1       Feb  55.10  59.6  64.2  ...  681.647672  689.980000  701.50  714.41
+2       Mar  53.55  59.7  68.0  ...  689.423000  697.359161  716.00  721.31
+3       Abr  53.70  60.8  63.7  ...  682.490000  695.360740  710.48  737.42
+4       May  55.90  59.9  63.6  ...  672.792621  699.780000  709.29  720.38
+5       Jun  54.60  60.0  64.6  ...  681.570758  693.657968  707.72  729.98
+6       Jul  55.20  59.4  62.8  ...  672.944800  686.435948  698.44  709.84
+7       Ago  51.80  59.5  62.1  ...  672.780267  680.720000  710.13  709.40
+8       Sep  54.40  60.5  62.4  ...  689.321508  698.130000  710.38  725.96
+9       Oct  55.70  62.2  65.2  ...  688.561384  703.320000  710.12  727.08
+10      Nov  57.20  66.0  68.8  ...  699.080000  706.560000  721.05  669.32
+11      Dic  57.20  66.1  67.7  ...  705.908788  707.928376  730.75  656.15
+12  MAX AÑO  57.20  66.1  68.8  ...  705.908788  707.928376  730.75  737.42
+
+[13 rows x 56 columns]
+[2025-07-06T20:32:11.942+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/serialization/serializers/pandas.py:49: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
+  table = pa.Table.from_pandas(o)
+
+[2025-07-06T20:32:11.978+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-07-06T20:32:11.979+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=etl_dag_datos_potencia, task_id=ETL.extraer_datos, run_id=manual__2025-07-06T20:32:09.090731+00:00, execution_date=20250706T203209, start_date=20250706T203211, end_date=20250706T203211
+[2025-07-06T20:32:12.041+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-06T20:32:12.062+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-06T20:32:12.068+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

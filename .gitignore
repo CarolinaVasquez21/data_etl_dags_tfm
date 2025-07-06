@@ -1,9 +1,0 @@
-*.xlsx
-*.csv
-*.env
-/config
-/logs
-/plugins
-*.pyc*
-docker-compose.yaml
-*.yaml*
