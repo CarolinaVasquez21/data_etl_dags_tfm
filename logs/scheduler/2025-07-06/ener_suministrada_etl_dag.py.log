@@ -649,3 +649,17 @@ ModuleNotFoundError: No module named 'pymongo'
 [2025-07-06T20:50:17.830+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:17.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-07-06T20:50:17.846+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:17.846+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_ener_suministrada to None, run_after=None
 [2025-07-06T20:50:17.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ener_suministrada_etl_dag.py took 0.455 seconds
+[2025-07-06T20:50:47.930+0000] {processor.py:186} INFO - Started process (PID=1059) to work on /opt/airflow/dags/ener_suministrada_etl_dag.py
+[2025-07-06T20:50:47.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ener_suministrada_etl_dag.py for tasks to queue
+[2025-07-06T20:50:47.933+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:47.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ener_suministrada_etl_dag.py
+[2025-07-06T20:50:48.217+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_ener_suministrada' retrieved from /opt/airflow/dags/ener_suministrada_etl_dag.py
+[2025-07-06T20:50:48.240+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:48.239+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:50:48.251+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:48.251+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_ener_suministrada to None, run_after=None
+[2025-07-06T20:50:48.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ener_suministrada_etl_dag.py took 0.344 seconds
+[2025-07-06T20:51:18.588+0000] {processor.py:186} INFO - Started process (PID=1077) to work on /opt/airflow/dags/ener_suministrada_etl_dag.py
+[2025-07-06T20:51:18.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ener_suministrada_etl_dag.py for tasks to queue
+[2025-07-06T20:51:18.593+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:51:18.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ener_suministrada_etl_dag.py
+[2025-07-06T20:51:18.930+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_ener_suministrada' retrieved from /opt/airflow/dags/ener_suministrada_etl_dag.py
+[2025-07-06T20:51:18.956+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:51:18.955+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:51:18.967+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:51:18.967+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_ener_suministrada to None, run_after=None
+[2025-07-06T20:51:18.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ener_suministrada_etl_dag.py took 0.406 seconds

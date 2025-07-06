@@ -649,3 +649,17 @@ ModuleNotFoundError: No module named 'pymongo'
 [2025-07-06T20:50:19.797+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:19.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-07-06T20:50:19.809+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:19.809+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_sisdat to None, run_after=None
 [2025-07-06T20:50:19.828+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_sisdat_etl_dag.py took 0.389 seconds
+[2025-07-06T20:50:49.965+0000] {processor.py:186} INFO - Started process (PID=1068) to work on /opt/airflow/dags/clientes_sisdat_etl_dag.py
+[2025-07-06T20:50:49.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_sisdat_etl_dag.py for tasks to queue
+[2025-07-06T20:50:49.969+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:49.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_sisdat_etl_dag.py
+[2025-07-06T20:50:50.308+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_sisdat' retrieved from /opt/airflow/dags/clientes_sisdat_etl_dag.py
+[2025-07-06T20:50:50.336+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:50.336+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:50:50.349+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:50:50.349+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_sisdat to None, run_after=None
+[2025-07-06T20:50:50.364+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_sisdat_etl_dag.py took 0.409 seconds
+[2025-07-06T20:51:20.620+0000] {processor.py:186} INFO - Started process (PID=1086) to work on /opt/airflow/dags/clientes_sisdat_etl_dag.py
+[2025-07-06T20:51:20.621+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/clientes_sisdat_etl_dag.py for tasks to queue
+[2025-07-06T20:51:20.623+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:51:20.623+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/clientes_sisdat_etl_dag.py
+[2025-07-06T20:51:20.939+0000] {processor.py:925} INFO - DAG(s) 'etl_dag_datos_num_clientes_sisdat' retrieved from /opt/airflow/dags/clientes_sisdat_etl_dag.py
+[2025-07-06T20:51:20.963+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:51:20.962+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-06T20:51:20.975+0000] {logging_mixin.py:190} INFO - [2025-07-06T20:51:20.975+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag_datos_num_clientes_sisdat to None, run_after=None
+[2025-07-06T20:51:20.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/clientes_sisdat_etl_dag.py took 0.379 seconds
