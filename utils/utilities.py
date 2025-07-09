@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
+from scipy.interpolate import interp1d
 from pymongo import MongoClient
 from datetime import datetime
 from dotenv import load_dotenv
@@ -74,7 +75,7 @@ def ajustar_atipicos_por_anio(df, columna_valor, anios, columna_fecha="Fecha"):
         # Calcular IQR
         q1, q3 = np.percentile(df_anio[columna_valor].dropna(), [25, 75])
         iqr = q3 - q1
-        lim_inf = q1 - 1.45 * iqr
+        lim_inf = q1 - 1.4 * iqr
         lim_sup = q3 + 1.5 * iqr
 
         # Reemplazar atípicos con nan para después interpolar
@@ -82,8 +83,19 @@ def ajustar_atipicos_por_anio(df, columna_valor, anios, columna_fecha="Fecha"):
                ((df[columna_valor] < lim_inf) | (df[columna_valor] > lim_sup)), 
                columna_valor] = np.nan
 
-    # Interpolar
-    df[columna_valor] = df[columna_valor].interpolate()
+    # Crear un array numérico para el eje x
+    x_vals = np.arange(len(df))
+    y_vals = df[columna_valor].values
+
+    # Máscara para valores válidos
+    mask = ~np.isnan(y_vals)
+
+    # Solo aplicar si hay suficientes datos para interpolar
+    if mask.sum() >= 2:
+        interpolador = interp1d(
+            x_vals[mask], y_vals[mask], kind='slinear', fill_value="extrapolate"
+        )
+        df[columna_valor] = interpolador(x_vals)
 
     return df
 
